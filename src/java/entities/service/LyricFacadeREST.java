@@ -63,8 +63,7 @@ public class LyricFacadeREST extends AbstractFacade<Lyric> {
                 editList.remove(i);
                 i--;
             }
-        }
-        
+        } 
         return editList;
     }
 
