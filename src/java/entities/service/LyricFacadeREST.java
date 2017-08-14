@@ -57,9 +57,7 @@ public class LyricFacadeREST extends AbstractFacade<Lyric> {
         List<Lyric> editList = fullList;
         for (int i = 0; i < fullList.size(); i++) {
             String listTitle = fullList.get(i).getLyTitle();
-            System.out.println(i);
             if (!listTitle.contains(title)) {
-                System.out.println(fullList.get(i).getLyTitle());
                 editList.remove(i);
                 i--;
             }
